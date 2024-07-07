@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link rel="stylesheet" href="pro.css" />
+    <script src="pro.js"></script>
+  </head>
+
+  <body>
+    <div class="marq">
+      <marquee
+        >Think innovatively and code uniquely
+        <span class="marquee">30 %</span> Special Offer for You !!</marquee
+      >
+    </div>
+    <nav>
+      <div class="logo">
+        <img src="image/initial-letter-sr-logo-design-3017928.jpg" alt="logo" />
+      </div>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+      <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+
+    <div class="learncode">
+      <h1 class="a"><i>Learn to Code</i></h1>
+      <p class="b">With the world's Largest Web developer site</p>
+      <input type="search" placeholder="Search" />
+      <p class="c">Not Sure Where To Begin?</p>
+    </div>
+
+    <div class="slider-container">
+      <div class="card-slider">
+        <div class="card">
+          <img src="image/html.png" alt="html" />
+        </div>
+        <div class="card">
+          <img src="image/GitHub-Mark.png" alt="GitHub" />
+        </div>
+        <div class="card">
+          <img src="image/java1.png" alt="java" />
+        </div>
+        <div class="card">
+          <img src="image/bootstrap.jpg" alt="bootstrap" />
+        </div>
+        <div class="card">
+          <img src="image/images.png" alt="mysql" />
+        </div>
+        <div class="card">
+          <img src="image/css.png" alt="css" />
+        </div>
+        <div class="card">
+          <img src="image/React.png" alt="reacr" />
+        </div>
+        <div class="card">
+          <img src="image/python.jpg" alt="python" />
+        </div>
+      </div>
+    </div>
+
+    <div class="course1">
+      <div class="c1a">
+        <h1 class="ca">HTML</h1>
+        <p class="cb">The language for building web pages</p>
+        .
+        <div class="btn"></div>
+        <button
+          class="btn1"
+          id="html"
+          value="5000"
+          onclick="html()"
+          name="html"
+        >
+          HTML
+        </button>
+        <button class="btn2" onclick="html()">RS : 5000</button>
+      </div>
+      <div class="c1b">
+        <div class="c1ba">
+          <h1 class="lag">HTML :</h1>
+          <div class="c1bb">
+            <h1>Price details :</h1>
+            <p id="no1"></p>
+            <p id="no2"></p>
+            <p id="no3"></p>
+            <p id="no4"></p>
+            <p id="no5"></p>
+            <p type="number" name="total" id="total" value="0"></p>
+            <p id="totalprice">Total Price : <span id="ftotal"></span></p>
+            <input type="button" onclick="cl()" value="Clear" id="clear" />
+            <input
+              type="button"
+              onclick="fulltotal()"
+              value="Total Price"
+              id="full"
+            />
+          </div>
+          <button class="btnc1ba">Try It YourSelf</button>
+        </div>
+      </div>
+    </div>
+    <div class="course1">
+      <div class="c1a" id="color">
+        <h1 class="ca">CSS</h1>
+        <p class="cb">The language for building web pages</p>
+        .
+        <div class="btn"></div>
+        <button class="btn1" id="css1" value="5000" onclick="css()" name="css">
+          CSS
+        </button>
+        <button class="btn2" onclick="css()">RS : 5000</button>
+      </div>
+      <div class="c1b" id="color">
+        <div class="c1ba">
+          <h1 class="lag">CSS :</h1>
+          <div class="c1bb">
+            <h1 id="css"></h1>
+          </div>
+          <button class="btnc1ba">Try It YourSelf</button>
+        </div>
+      </div>
+    </div>
+    <div class="course1">
+      <div class="c1a" id="color2">
+        <h1 class="ca">JAVA</h1>
+        <p class="cb">The language for building web pages</p>
+        .
+        <div class="btn"></div>
+        <button
+          class="btn1"
+          id="js1"
+          value="10000"
+          onclick="js()"
+          name="javascript"
+        >
+          JAVA
+        </button>
+        <button class="btn2" onclick="js()">RS : 10000</button>
+      </div>
+      <div class="c1b" id="color2">
+        <div class="c1ba">
+          <h1 class="lag">JAVA :</h1>
+          <div class="c1bb"><h1 id="js"></h1></div>
+          <button class="btnc1ba">Try It YourSelf</button>
+        </div>
+      </div>
+    </div>
+    <div class="course1">
+      <div class="c1a" id="color3">
+        <h1 class="ca">SQL</h1>
+        <p class="cb">The language for building web pages</p>
+        .
+        <div class="btn"></div>
+        <button class="btn1" id="sql" value="10000" onclick="sql()" name="sql">
+          SQL
+        </button>
+        <button class="btn2" onclick="sql()">RS : 10000</button>
+      </div>
+      <div class="c1b" id="color3">
+        <div class="c1ba">
+          <h1 class="lag">SQL :</h1>
+          <div class="c1bb"><h1 id="sql1"></h1></div>
+          <button class="btnc1ba">Try It YourSelf</button>
+        </div>
+      </div>
+    </div>
+    <div class="course1">
+      <div class="c1a" id="color4">
+        <h1 class="ca">Python</h1>
+        <p class="cb">The language for building web pages</p>
+        .
+        <div class="btn"></div>
+        <button
+          class="btn1"
+          id="python"
+          value="10000"
+          onclick="python()"
+          name="python"
+        >
+          PYTHON
+        </button>
+        <button class="btn2" onclick="python()">RS : 10000</button>
+      </div>
+      <div class="c1b" id="color4">
+        <div class="c1ba">
+          <h1 class="lag">PYTHON :</h1>
+          <div class="c1bb"><h1 id="python1"></h1></div>
+          <button class="btnc1ba">Try It YourSelf</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-item">
+        <h1 class="twoa">JavaScript</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add JavaScript</button>
+      </div>
+      <div class="flex-item">
+        <h1 class="twoa">PHP</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add PHP</button>
+      </div>
+      <div class="flex-item">
+        <h1 class="twoa">SVG</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add SVG</button>
+      </div>
+      <div class="flex-item">
+        <h1 class="twoa">C++</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add C++</button>
+      </div>
+      <div class="flex-item">
+        <h1 class="twoa">Bootstrap</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add Bootstrap</button>
+      </div>
+      <div class="flex-item">
+        <h1 class="twoa">MongoDB</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add MongoDB</button>
+      </div>
+      <div class="flex-item">
+        <h1 class="twoa">TypeScript</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add TypeScript</button>
+      </div>
+      <div class="flex-item">
+        <h1 class="twoa">JSON</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add JSON</button>
+      </div>
+      <div class="flex-item">
+        <h1 class="twoa">XML</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add XML</button>
+      </div>
+      <div class="flex-item">
+        <h1 class="twoa">Git</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add Git</button>
+      </div>
+      <div class="flex-item">
+        <h1 class="twoa">Sass</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add Sass</button>
+      </div>
+      <div class="flex-item">
+        <h1 class="twoa">AppMl</h1>
+        <p class="twob">programming language</p>
+        <button class="twoc">Add AppMl</button>
+      </div>
+    </div>
+
+    <footer>
+      <h2 class="f1">Sabari Nayagam</h2>
+      <p class="f2">9952375090</p>
+      <p class="f3">sabarinayagam@gmail.com</p>
+    </footer>
+
+    <script>
+      const menu = document.querySelector(".menu");
+      const menuList = document.querySelector("nav ul");
+      menu.addEventListener("click", () => {
+        menuList.classList.toggle("showmenu");
+      });
+
+      total.value = 0;
+      html = () => {
+        document.getElementById("no1").innerHTML = "HTML : RS : 5000";
+        var x = parseInt(document.getElementById("html").value);
+        if (total.value === 0) {
+          document.getElementById("total").value = x;
+        } else {
+          document.getElementById("total").value = x + total.value;
+        }
+      };
+      css = () => {
+        document.getElementById("css").innerHTML = "CSS successfully added !!";
+        document.getElementById("no2").innerHTML = "CSS &nbsp&nbsp: RS : 5000";
+        var c = parseInt(document.getElementById("css1").value);
+        if (total.value === 0) {
+          document.getElementById("total").value = c;
+        } else {
+          document.getElementById("total").value = c + total.value;
+        }
+      };
+      js = () => {
+        document.getElementById("js").innerHTML = "Java successfully added !!";
+        document.getElementById("no3").innerHTML =
+          "&nbsp&nbsp  JS &nbsp&nbsp:  RS : 10000";
+        var y = parseInt(document.getElementById("js1").value);
+        if (total.value === 0) {
+          document.getElementById("total").value = y;
+        } else {
+          document.getElementById("total").value = y + total.value;
+        }
+      };
+      python = () => {
+        document.getElementById("python1").innerHTML =
+          "Python successfully added !!";
+        document.getElementById("no4").innerHTML = "PYTHON &nbsp&nbsp: 10000";
+        var a1 = parseInt(document.getElementById("python").value);
+        if (total.value === 0) {
+          document.getElementById("total").value = a1;
+        } else {
+          document.getElementById("total").value = a1 + total.value;
+        }
+      };
+      sql = () => {
+        document.getElementById("sql1").innerHTML = "SQL successfully added !!";
+        document.getElementById("no5").innerHTML = "SQL &nbsp&nbsp: RS : 10000";
+        var sql1 = parseInt(document.getElementById("sql").value);
+        if (total.value === 0) {
+          document.getElementById("total").value = sql1;
+        } else {
+          document.getElementById("total").value = sql1 + total.value;
+        }
+      };
+      fulltotal = () => {
+        var f = document.getElementById("total").value;
+        document.getElementById("ftotal").innerHTML = f;
+      };
+      cl = () => {
+        document.getElementById("ftotal").innerHTML = 0;
+
+        document.getElementById("no1").innerHTML = "";
+        document.getElementById("no2").innerHTML = "";
+        document.getElementById("no3").innerHTML = "";
+        document.getElementById("no4").innerHTML = "";
+        document.getElementById("no5").innerHTML = "";
+        location.reload();
+      };
+    </script>
+  </body>
+</html>
