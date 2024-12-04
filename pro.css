@@ -599,7 +599,7 @@ input {
     padding: 0;
   }
   .a {
-    font-size: 45px;
+    font-size: 40px;
   }
   .inputa {
     border: none;
@@ -609,6 +609,6 @@ input {
     text-decoration: none;
   }
   footer p {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
