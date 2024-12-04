@@ -121,6 +121,9 @@ nav a:hover {
 .learncode:nth-child(1) {
   color: red;
 }
+.inputa {
+  border: none;
+}
 .a {
   font-size: 20vh;
 }
@@ -136,7 +139,7 @@ input {
 .c {
   margin-top: 2%;
   font-size: 4vh;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 @media only screen and (max-width: 580px) {
   .learncode {
@@ -218,7 +221,8 @@ input {
 }
 .btn1,
 .btn2 {
-  background-color: red;
+  background-color: blue;
+  color: white;
   margin-left: 40%;
   margin-top: 5%;
   height: 6vh;
@@ -261,6 +265,9 @@ input {
   font-size: 4vh;
   padding-top: 2%;
   margin-left: 2%;
+}
+.c1bb input {
+  border: none;
 }
 .btnc1ba {
   margin-left: 3%;
@@ -317,7 +324,7 @@ input {
   color: white;
 }
 #color2 {
-  background-color: rgb(34, 34, 201);
+  background-color: rgb(149, 48, 231);
   color: white;
 }
 #color3 {
@@ -428,6 +435,7 @@ input {
 /* footer */
 
 footer {
+  padding: 20px;
   background-color: black;
   color: white;
   left: 0;
@@ -436,6 +444,9 @@ footer {
   justify-content: center;
   text-align: center;
   cursor: pointer;
+}
+footer p {
+  font-size: 20px;
 }
 .f1 {
   margin-top: 2%;
@@ -451,8 +462,7 @@ footer {
   margin-top: 1%;
   margin-bottom: 2%;
   font-size: 2vh;
-  color: blue;
-  text-decoration: underline;
+  text-decoration: none;
   padding-bottom: 2%;
 }
 button:hover {
@@ -516,4 +526,89 @@ input {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+@media only screen and (max-width: 768px) {
+  .course1 {
+    display: inline-block;
+  }
+  .c1a {
+    width: 100%;
+  }
+  .c1b {
+    width: 100%;
+    height: auto;
+    padding-bottom: 55px;
+    margin-top: -44px;
+    margin-bottom: 99px;
+    /* background-color: red; */
+  }
+  .c1ba {
+    /* background-color: red; */
+    height: 300px;
+  }
+  .c1ba h1 {
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  .c1bb input {
+    border: none;
+    padding: 5px 10px;
+  }
+  .c1a h1 {
+    padding-top: 60px;
+  }
+  .c1a p {
+    font-size: 26px;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .btn1,
+  .btn2 {
+    background-color: blue;
+    height: 6vh;
+    width: 25vh;
+    border-radius: 100px;
+    border: none;
+    font-size: 4vh;
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 20px;
+    color: white;
+  }
+  .flex-container {
+    margin-top: 70px;
+    padding-top: 20px;
+  }
+  .btnc1ba {
+    width: 140px;
+    padding: 10px;
+    padding-bottom: 25px;
+  }
+  #box {
+    margin-top: 70px;
+  }
+  /*  */
+  .learncode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  .a {
+    font-size: 50px;
+  }
+  .inputa {
+    border: none;
+  }
+  .c,
+  .f3 {
+    text-decoration: none;
+  }
+  footer p {
+    font-size: 15px;
+  }
 }
